@@ -3,7 +3,7 @@ const result = input.reduce((acu,cur)=>{
     if(cur>0){
         acu+=cur
     }
-    return acu
+    return acu;
 
 },0);
 console.log(result)
