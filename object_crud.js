@@ -23,5 +23,5 @@ newObj = {
     name:"something",
     email:"something@gmail.com"
 }
-instructors[newObj.id]=newObj
-console.log(instructors)
+//obj[newObj.id]=newObj
+console.log(obj)
