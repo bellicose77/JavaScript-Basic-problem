@@ -9,3 +9,6 @@ const array2 = [...array,...array1]  // array coping
 const obj1 = { foo: 'bar', x: 42 };
 const obj2 = { foo: 'baz', y: 13 };
 const obj3 ={...obj1}
+obj3.foo='csx'
+console.log(obj3)
+console.log(obj1)
