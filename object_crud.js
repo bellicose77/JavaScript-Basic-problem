@@ -23,5 +23,13 @@ newObj = {
     name:"something",
     email:"something@gmail.com"
 }
-//obj[newObj.id]=newObj
-console.log(obj)
+// create 
+obj[newObj.id]=newObj
+//obj.newObj.id = newObj.id
+// update 
+updateData = {
+    name :"Dulal Halder",
+    email:"dulal@gmail.com"
+}
+obj['49350b1b-b450-418f-a840-c7aa53617a7f']
+//console.log(obj['49350b1b-b450-418f-a840-c7aa53617a7f'])
