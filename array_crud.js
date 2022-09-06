@@ -18,3 +18,10 @@ const instructors = [
       email: 'hussein@gmail.com',
     }
  ];
+ newObj = {
+    id:uuid(),
+    name:"perfect hossian",
+    email:"something@gmail.com"
+ }
+ instructors.push(newObj)
+ console.log(instructors)
