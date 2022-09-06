@@ -5,4 +5,6 @@ const scores =[
     {id:4,runs:100},
     {id:5,runs:65},
 ];
-const value = scores.findIndex(item => item.id===4)
+const value = scores.findIndex(item => item.id===4);
+//const deletedvalue = scores.splice(value,1)
+console.log(scores)
