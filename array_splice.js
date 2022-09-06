@@ -4,4 +4,5 @@ const scores =[
     {id:3,runs:70},
     {id:4,runs:100},
     {id:5,runs:65},
-]
+];
+const value = scores.findIndex(item => item.id===4)
