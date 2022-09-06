@@ -3,5 +3,6 @@ const array1 = [4,5,6]
 // const obj = {
 //     ...array
 // }
-console.log(array)
-console.log(obj)
+const array2 = [...array,...array1]
+console.log(array2)
+// console.log(obj)
