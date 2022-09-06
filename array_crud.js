@@ -23,5 +23,25 @@ const instructors = [
     name:"perfect hossian",
     email:"something@gmail.com"
  }
+ //create 
  instructors.push(newObj)
- console.log(instructors)
+
+ // update 
+ const updateIndex = instructors.findIndex(item=>item.id==='49350b1b-b450-418f-a840-c7aa53617a7f');
+ updatedata={
+    name:"dulal halder",
+    email:"dulal@gmail.com"
+ }
+ instructors[updateIndex]={
+    ...instructors[updateIndex],...updatedata
+ }
+
+ // delete 
+ //instructors.splice(updateIndex,1)
+ // read 
+ const array1=instructors.map(item=> item.name);
+ console.log(array1)
+//console.log(instructors)
+
+//console.log(instructors)
+ //console.log(instructors)
