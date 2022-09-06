@@ -31,5 +31,7 @@ updateData = {
     name :"Dulal Halder",
     email:"dulal@gmail.com"
 }
-obj['49350b1b-b450-418f-a840-c7aa53617a7f']
-//console.log(obj['49350b1b-b450-418f-a840-c7aa53617a7f'])
+obj['49350b1b-b450-418f-a840-c7aa53617a7f']={
+    ...obj['49350b1b-b450-418f-a840-c7aa53617a7f'], ...updateData
+}
+console.log(obj['49350b1b-b450-418f-a840-c7aa53617a7f'])
