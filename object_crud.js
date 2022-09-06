@@ -34,4 +34,10 @@ updateData = {
 obj['49350b1b-b450-418f-a840-c7aa53617a7f']={
     ...obj['49350b1b-b450-418f-a840-c7aa53617a7f'], ...updateData
 }
-console.log(obj['49350b1b-b450-418f-a840-c7aa53617a7f'])
+// delete 
+//delete obj[id]
+// Read 
+for(let key in obj){
+    console.log(obj[key].name)
+}
+// console.log(obj['49350b1b-b450-418f-a840-c7aa53617a7f'])
