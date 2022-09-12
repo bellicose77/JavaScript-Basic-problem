@@ -12,3 +12,18 @@
 //   const {stock} = sales[0]
 //   console.log(stock)
 //   console.log(sales[0].stock)
+
+const newObj = {
+    item: 'Xbox One X', 
+    stock: 1, 
+    original: 499.99, 
+    discount: 0.1 
+}
+const calculateSalesTotal = ({stock,original,discount=0.0}) =>{
+    const sale = original - discount;
+    const total = (original-discount)*stock;
+    return [sale,total];
+
+}
+
+const result = calculateSalesTotal(newObj)
