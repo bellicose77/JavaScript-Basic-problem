@@ -5,10 +5,21 @@ const sales = [
     { item: 'PS2 Console', stock: 1, original: 299.99, discount: 0.8 },
     { item: 'Nintendo 64', stock: 2, original: 199.99, discount: 0.65 }
   ];
+  const calculateSalesTotal = (sales) =>{
+    let updatedSale=sales.map(sale=>{
+        const{stock,original,discount=0.0} = sale;
+        // sale['sale'] = original - discount;
+        // sale['total'] = (original-discount)* stock;
+        const salex = original - discount;
+        const total = (original-discount)* stock;
+        const update ={
+            ...sale,salex,total
+        }
+        return update;
+    });
+    return updatedSale
 
-  const [obj1,obj2,obj3,obj4,obj5]=sales;
-  //const {item,stock,original,discount}=obj2;
-
-  //allstock value 
-  const [stock]=sales.map(item => item.stock)
-  console.log(stock);
+  }
+ const updateSale = calculateSalesTotal(sales);
+ console.log(updateSale);
+ console.log(sales)

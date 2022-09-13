@@ -18,7 +18,7 @@ const calculateSalesTotal = ({stock,original,discount=0.0}) =>{
   console.log("f",stock);
     const sale = original - discount;
     const total = (original-discount)*stock;
-    return sale,total;
+    return [sale,total];
 
 }
 
