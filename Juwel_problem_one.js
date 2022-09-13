@@ -6,5 +6,4 @@ const obj ={
     education: { highschool: 'N/A', college: 'Yale' }
   
 }
-const {education:{college}} = obj
-console.log(college)
+console.log(obj.name)
