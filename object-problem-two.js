@@ -16,13 +16,13 @@ const sales = [
 
 const calculateSalesTotal = ({stock,original,discount=0.0}) =>{
   console.log("f",stock);
-    // const sale = original - discount;
-    // const total = (original-discount)*stock;
-    // return [sale,total];
+    const sale = original - discount;
+    const total = (original-discount)*stock;
+    return sale,total;
 
 }
 
-const [sale,total] = sales.map(item=>calculateSalesTotal(item))
+ const [sale,total]=sales.map(item=>calculateSalesTotal(item))
 //console.log(total);
 //  const updateData = {
 //      sale:sale,
