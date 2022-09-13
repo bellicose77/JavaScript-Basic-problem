@@ -5,3 +5,6 @@ const sales = [
     { item: 'PS2 Console', stock: 1, original: 299.99, discount: 0.8 },
     { item: 'Nintendo 64', stock: 2, original: 199.99, discount: 0.65 }
   ];
+
+  const [obj1,obj2,obj3,obj4,obj5]=sales;
+  console.log(obj1)
