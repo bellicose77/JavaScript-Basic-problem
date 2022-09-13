@@ -6,5 +6,5 @@ const obj ={
     education: { highschool: 'N/A', college: 'Yale' }
   
 }
-const {name} =obj;
-console.log(`My first name is ${name}`);
+const {name:{first,last}} =obj;
+console.log(`My first name is ${first}`);
