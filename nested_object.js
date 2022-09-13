@@ -3,8 +3,16 @@ const obj ={
     age: 25,
     DOB: '-',
     hobbies: [ 'running', 'coding', '-' ],
-    education: { highschool: 'N/A', college: 'Yale' }
+    education: { 
+        highschool: 'N/A', 
+        college: 'Yale',
+        love:{
+            gfN:"si",
+
+        }
+
+}
   
 }
-const {name:{first,last}} =obj;
-console.log(`My first name is ${first}`);
+const {name:{first,last},DOB} =obj;
+console.log(`My first name is ${first} and date of birth${DOB}`);
