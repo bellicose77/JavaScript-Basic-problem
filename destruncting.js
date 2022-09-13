@@ -7,5 +7,8 @@ const sales = [
   ];
 
   const [obj1,obj2,obj3,obj4,obj5]=sales;
-  const {item,stock,original,discount}=obj2;
-  console.log(original);
+  //const {item,stock,original,discount}=obj2;
+
+  //allstock value 
+  const [stock]=sales.map(item => item.stock)
+  console.log(stock);
