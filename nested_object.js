@@ -8,11 +8,17 @@ const obj ={
         college: 'Yale',
         love:{
             gfN:"si",
-
+            val:{
+                ag:20
+            }
+          
         }
 
 }
   
 }
-const {name:{first,last},DOB} =obj;
-console.log(`My first name is ${first} and date of birth${DOB}`);
+const {name:{first,last},DOB,age,education:{college,love:{gfN,val:{ag}}}} =obj;
+console.log(`My first name is ${first} 
+and date of birth${DOB} and age is ${age},I in a collage of ${college}
+and my love is:${gfN} and her age is ${ag}
+`);
