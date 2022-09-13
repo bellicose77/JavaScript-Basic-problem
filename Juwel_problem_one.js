@@ -6,4 +6,9 @@ const obj ={
     education: { highschool: 'N/A', college: 'Yale' }
   
 }
-console.log(obj.name)
+let key = Object.keys(obj);
+let value = Object.values(obj);
+let entries = Object.entries(obj);
+console.log(key);
+// console.log(value);
+console.log(entries)
