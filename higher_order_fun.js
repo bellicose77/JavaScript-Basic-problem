@@ -12,3 +12,24 @@ console.log(result);
 const num = [1,2,4,6];
 const res = num.map((item)=>item * 2);
 console.log(res)
+
+// second example 
+const players =[
+    {
+        name: "Shakib",
+        avg: 38.23
+    }
+    ,
+    {
+        name:'Tamin',
+        avg:36.74
+    },
+    {
+        name:'Robin',
+        avg:36.78
+    },
+    {
+        name:'fobin',
+        avg:37.12
+    }
+]
