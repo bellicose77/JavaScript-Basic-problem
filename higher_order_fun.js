@@ -9,3 +9,6 @@ for(let i=0; i<arr.length;i++){
 console.log(result);
 
 // using higher order function
+const num = [1,2,4,6];
+const res = num.map((item)=>item * 2);
+console.log(res)
