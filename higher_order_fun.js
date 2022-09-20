@@ -32,4 +32,11 @@ const players =[
         name:'fobin',
         avg:37.12
     }
-]
+];
+const playerWithThirteenAvg = [];
+for(let i =0;i<players.length;i++){
+    if(players[i].avg >=37){
+        playerWithThirteenAvg.push(players[i]);
+    }
+};
+console.log(playerWithThirteenAvg);
